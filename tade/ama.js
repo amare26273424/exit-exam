@@ -1,6 +1,8 @@
 const x =document.getElementById("loginsection1")
 const y =document.getElementById("menubar")
 const z =document.getElementById("barsymbol")
+
+
 document.getElementById("login").addEventListener("click",()=>{
    if(x.style.height == "0vh")
     x.style.height="80vh"
@@ -10,11 +12,13 @@ document.getElementById("login").addEventListener("click",()=>{
 
 // document.body.addEventListener("clcik mouseover",()=>{
 
+   
+
 //    document.getElementById("quicklinks").classList.remove("addedquicklinksclass")      
 // })
 
 y.addEventListener("click",()=>{
-   
+   x.style.height="0vh"
    z.classList.toggle("fa-xmark")
    document.getElementById("quicklinks").classList.toggle("addedquicklinksclass")
   

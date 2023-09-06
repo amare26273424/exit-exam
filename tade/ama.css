@@ -9,6 +9,7 @@ body{
     background-color: rgba(0, 0, 0, 0.652); 
    
 }
+
 /* starting olf the header */
 .header1{
     display: flex; 
@@ -21,7 +22,7 @@ body{
     right: 0%;
     background-color: rgba(246, 244, 244, 0.625);
    height: 80px;
-   z-index: 10;
+   z-index:2;
    
 }
 #logo{
@@ -54,7 +55,7 @@ body{
 
  .menubar{
     display: none;
-    z-index: 20;
+    z-index: 3;
 } 
 #nightmode{
     width: 30px;
@@ -147,7 +148,8 @@ a:hover{
 }
 /*about*/
 #about{
-    margin-top: 15vh;
+    margin: 15vh 10vw 0vh 10vw;
+   
 }
 /* start of the  it tutorial   and accountingtutor*/
  .ittutorial {
@@ -193,8 +195,11 @@ h2 a{
     position: relative;
 } */
 /* start of login page */
+
+  
+
  #loginsection1{
-    z-index:20;
+    /* z-index: 2;   */
     position: fixed;
     top: 100px;
     left: 0;
@@ -207,7 +212,8 @@ h2 a{
     align-items: center;
   background-color: rgba(245, 245, 245, 0.273);
 }
-#loginsection2{   
+#loginsection2{ 
+     z-index:4;
     border-radius: 10px;    
     background-color: white;
     height: 80vh;
@@ -241,6 +247,21 @@ h2 a{
 
 @media (max-width:830px){
     
+    #loginsection2{ 
+        z-index:4;
+       border-radius: 10px;    
+       background-color: white;
+       height: 70vh;
+       display: flex;
+       row-gap: 0px;
+       flex-direction: column;
+       align-items: center;
+       width: 60%;
+   } 
+   /* #loginsection2 form {
+        font-size: 20px;
+
+   } */
     .header1 div h3 {
         font-size: 14px;
     }
@@ -261,7 +282,7 @@ h2 a{
     height: 200px;
     width: 90px;
     background-color:rgba(128, 128, 128, 0.478) ;
-    z-index: 30;
+    /* z-index: 7;  */
   }
  
 
@@ -329,7 +350,17 @@ h2 a{
         font-size: 20px;  
     } */
     
-
+    #loginsection2{ 
+        z-index:4;
+       border-radius: 10px;    
+       background-color: white;
+       height: 75vh;
+       display: flex;
+       row-gap: 0px;
+       flex-direction: column;
+       align-items: center;
+       width: 63%;
+   } 
     #menubar{
         display: flex;
         color: rgb(208, 199, 187);

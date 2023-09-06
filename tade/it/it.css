@@ -143,9 +143,18 @@ body{
         column-gap: 5vw; 
         font-size: 20px;  
     } */
+
     .quicklinks{
         display: none;
     } 
+    #mainbody{
+         display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        /* justify-content: center; */
+       
+    }
   .addedquicklinksclass{
     display: flex;
     flex-direction: column;
